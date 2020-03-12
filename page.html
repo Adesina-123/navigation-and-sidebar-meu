@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="sidebar">
+            <a class="times" href="#" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="#">contact</a>
+            <a href="about.html">about</a>
+            <a href="page.html">blog</a>
+        </div>
+        <div id="main">
+            <a href="#" class="open" onclick="openNav()">&#9776;</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quos reiciendis
+                 itaque, non et saepe, minus odit cupiditate perferendis, odio obcaecati 
+                adipisci unde veniam. Molestiae nesciunt reiciendis cum dolorum qui.</p>
+        </div>
+    </div>
+    <script>
+        function openNav(){
+            document.getElementById('sidebar').style.width ="250px";
+            document.getElementById('open').style.marginLeft ="250px";
+        }
+        function closeNav(){
+            document.getElementById('sidebar').style.width ="0";
+            document.getElementById('open').style.marginLeft ="0";   
+        }
+    </script>
+</body>
+</html>

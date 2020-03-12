@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./concentrated-young-man-reading-book-260nw-566878039.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    color: white;
+
+}
+.band {
+    font-size: 2.75rem;
+    text-transform: uppercase;
+    margin: 0 0.75rem;
+}
+.navbar-links ul {
+    display: flex;
+
+}
+.navbar-links ul li {
+    list-style: none;
+}
+.navbar-links a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    padding: 1rem;
+    display: block;
+    text-transform: uppercase;
+}
+.navbar-links li:hover {
+    background-color: rgb(70, 67, 67);
+}
+span {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    top: 0;
+
+}
+.toggle-button {
+    display: none;
+}
+.content {
+    padding: 15rem 5rem;
+}
+.design {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: white;
+}
+.two {
+    margin-top: 2.5rem;
+}
+.get {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border: 2px solid white;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.get:hover {
+    background: rgb(219, 77, 77);
+}
+.now {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border: 2px solid white;
+    padding: 1rem;
+    text-align: center;
+    margin-left: .5rem;
+}
+@media screen and (max-width: 985px) {
+    .band {
+        font-size: 1.75rem;
+    }
+    .navbar-links a {
+        font-size: .5rem;
+    }
+
+    .content {
+        padding: 8rem 4rem;
+    }
+}
+@media screen and (max-width:798px) {
+  .band {
+      font-size: 1.5rem;
+      
+  }  
+  
+  .navbar-links a {
+      font-size: .5rem;
+  }
+  .design {
+      font-size: 2.75rem;
+  }
+  .content {
+      padding: 12rem 5rem;
+  }
+  .get {
+    font-size: .75rem;
+    padding: .75rem;
+}
+.now {
+    font-size: .75rem;
+    padding: .75rem; 
+}
+}
+@media screen and (max-width:668px) {
+    .design {
+        font-size: 1.75rem;
+    }
+    .content {
+        padding: 12rem 5rem;
+    }
+    .get {
+      font-size: .5rem;
+      padding: .5rem;
+  }
+  .now {
+      font-size: .5rem;
+      padding: .5rem; 
+  }
+}
+
+@media screen and (max-width: 500px) {
+    .toggle-button {
+        display: block;
+    }
+    .band {
+        font-size: 1.5rem;
+    }
+    .nav-bar {
+        display: block;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+    }
+    span {
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 20px;
+    }
+    .navbar-links {
+        display: none;
+    }
+    .navbar-links ul { 
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links ul li {
+       width: 100%;
+       
+    }
+    .navbar-links a {
+        font-size: .5rem;
+        text-align: center;
+    }
+    .navbar-links.active {
+        display: block;
+    }
+    .content {
+        padding: 4rem 1rem;
+    }
+    .design {
+        font-size: 1.5rem;
+    }
+    .get {
+        font-size: .5rem;
+        padding: .5rem;
+    }
+    .now {
+        font-size: .5rem;
+        padding: .5rem; 
+    }
+}
